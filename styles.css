@@ -24,3 +24,45 @@
     font-style: normal;
     font-display: block;
 }
+
+body {
+    display: flex;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
+
+p {
+    font-family: 'Outfit', serif;
+}
+
+.left {
+    background-image: url(./assets/background-pic.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+.logo-card {
+    display: flex;
+    gap: 16px;
+    margin: 20% 0 auto 0;
+    padding: 0 2rem;
+    background-color: rgba(0, 0, 0, 67%);
+    height: 20vh;
+}
+
+.logo-text {
+    color: azure;
+    font-size: 4rem;
+}
+
+.right {
+    background-color: rgb(211, 217, 245);
+}
+
