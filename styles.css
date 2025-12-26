@@ -48,7 +48,7 @@ p {
 }
 
 .left {
-    background-image: url(./assets/background-pic.jpg);
+    background-image: url(./assets/background-picture.jpg);
     background-size: cover;
     height: 100vh;
     display: flex;
