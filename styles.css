@@ -98,6 +98,7 @@ button {
 a {
     text-decoration: none;
     font-weight: 600;
+    color: rgb(73, 129, 251);
 }
 
 .form-area {
@@ -109,5 +110,45 @@ a {
 .form-title {
     font-size: 2rem;
     font-weight: 600;
+    margin-bottom: 24px;
 }
 
+.font-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    gap: 48px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px ;
+}
+
+label {
+    font-family: 'Outfit', serif;
+    font-weight: 600;
+    color: rgb(67, 67, 67);
+}
+
+input {
+    appearance: none;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    padding: 4px 12px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid rgb(0, 132, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 67%);
+}
+
+input:invalid {
+    outline: none;
+    border: 2px solid rgb(255, 0, 0);    
+}
