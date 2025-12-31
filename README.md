@@ -5,7 +5,7 @@ Live demo link: https://j0e-quan.github.io/sign-up-form/
 
 ## Technologies used:
  - HTML for basic layout of page and form creation
- - CSS for styling elements and use of web fonts (Inter for logo text, Outfit for body text)
+ - CSS for styling elements and use of web fonts (Inter for logo text, Urbanist for body text)
  - Flexbox for arranging elements
  - Git for version control
 
