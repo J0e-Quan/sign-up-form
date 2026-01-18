@@ -18,3 +18,7 @@ Live demo link: https://j0e-quan.github.io/sign-up-form/
       
 ## Gallery:
 ![Picture showing the layout of the whole page](./readme-assets/sign-up-form.jpeg)
+
+## Getting started:
+1. clone this repo in your desired folder: `git clone https://github.com/J0e-Quan/sign-up-form.git`
+2. open index.html in your browser to run the code
